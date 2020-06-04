@@ -92,6 +92,16 @@ h1.rm-title-display {
   background-color: var(--main-surround-bg-color);
 }
 
+button.bp3-button.bp3-small.bp3-minimal.block-ref-count-button {
+  background-color: #3a3a4a;
+  color: #ffffff;
+}
+
+span.version-bullet {
+  background-color: #b05050 !important;
+  color: #ffffff;
+}
+
 input#find-or-create-input {
   background-color: #283036;
   color: #ffffff;
