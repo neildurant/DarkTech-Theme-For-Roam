@@ -4,7 +4,7 @@ This is my current dark theme for [Roam Research](https://roamresearch.com). It'
 
 ## Screenshot
 
-![](/DarkTech-Screenshot.png))
+![](/DarkTech-Screenshot.png)
 
 ## How to use
 
