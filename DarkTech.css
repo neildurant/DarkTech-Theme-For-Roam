@@ -1,0 +1,319 @@
+:root {
+  --main-bg-color: #181a1b;
+  --main-fg-color: #d0ccc5;
+  --main-surround-bg-color: #182026;
+  --main-surround-edge-color: #283036;
+  --query-bg-color: #2a2a30;
+  --query-edge-color: #404050;
+  --query-head-bg-color: #3a3a40;
+  --query-head-fg-color: #a0a0a0;
+  --reference-bg-color: #242428;
+  --reference-edge-color: #404050;
+  --table-bg-color: #242424;
+  --heading-bg-color: #2a2a30;
+  --ext-link-color: #69d0ba;
+  --int-link-color: #60a0f0;
+  --slash-popup-bg-color: #182026;
+  --slash-popup-fg-color: #60a0f0;
+  --slash-popup-bg-focus-color: #283036;
+  --slash-popup-fg-focus-color: #ffffff;
+  --selection-bg-color: #404060;
+  --h1-color: #c09060;
+  --h2-color: #c09060;
+  --h3-color: #c09060;
+}
+
+/* All Pages */
+#rm-all-pages-column-titles div {
+  background-color: var(--query-head-bg-color);
+  color: var(--query-head-fg-color);
+}
+
+.rm-all-pages .table .rm-pages-row {
+  border-bottom: 0px;
+}
+
+.rm-clickable-pill.empty-pill {
+  background-color: #404040;
+  color: #a0a0a0;
+}
+
+span.bp3-control-indicator::before {
+  background-color: #283036;
+  border: 0.5px #384046 solid;
+}
+
+input.bp3-input.bp3-round.bp3-minimal.search-input {
+  background-color: #283036;
+  color: #ffffff;
+}
+
+body, html {
+  color: var(--main-fg-color);
+  background-color: var(--main-bg-color);
+}
+
+::selection {
+  background-color: #c0c0e0;
+}
+
+span {
+  color: var(--main-fg-color);
+}
+
+.roam-topbar {
+  background-color: var(--main-surround-bg-color);
+  border-bottom: 1px var(--main-surround-edge-color) solid;
+}
+
+.roam-center {
+  border-right: 1px var(--main-surround-edge-color) solid;
+}
+
+h1.rm-title-display {
+  color: #a0a0a0 !important;
+  border: 0.5px #38383d solid;
+  padding: 6px;
+  background-color: #28282d;
+}
+
+.rm-title-textarea {
+  color: #ffffff !important;
+  border: 0.5px #48484d solid;
+  padding: 6px;
+  background-color: #38383d;
+}
+
+#roam-right-sidebar-content   {
+  background-color: var(--main-surround-bg-color);
+}
+
+#right-sidebar > .flex-h-box {
+  background-color: var(--main-surround-bg-color);
+}
+
+input#find-or-create-input {
+  background-color: #283036;
+  color: #ffffff;
+}
+
+.simple-bullet-outer.roam-bullet-closed {
+  background-color: #2a2a3a;
+}
+
+.roam-block-container {
+  border-left: 0px;
+}
+
+div.page { /* Sidebar shortcuts, otherwide default to italics */
+  font-style: normal;
+ }
+
+.block-highlight-blue {
+  background-color: var(--selection-bg-color);
+}
+
+.roam-body .roam-app .roam-sidebar-container {
+  background-color: var(--main-surround-bg-color);
+  border-right: 1px var(--main-surround-edge-color) solid;
+}
+
+td {
+  background-color: var(--table-bg-color);
+}
+
+.rm-page-ref-tag {
+  color: #606080;
+}
+
+strong {
+  color: #9090ff;
+}
+
+.rm-page-ref-brackets {
+  color: #606080;
+}
+
+.rm-page-ref-link-color { /* internal links */
+  color: var(--int-link-color);
+}
+
+a.rm-alias.rm-alias-external { /* aliased external links */
+  color: var(--ext-link-color);
+  font-style: italic;
+}
+
+span a { /* raw external links */
+  color: var(--ext-link-color);
+  font-style: italic;
+}
+
+span.rm-page-ref-namespace-color { /* namespaces */
+  color: #90ef90;
+}
+
+textarea.rm-block-input { /* line editing */
+  color: #ffffff;
+  background: #202830;
+}
+
+textarea.rm-title-display { /* line editing */
+  color: #ffffff;
+  background: #202830;
+}
+
+h1.rm-level1 span {
+  color: var(--h1-color);
+  padding: 0px 0px 0px 6px;
+  text-decoration: underline;
+  text-decoration-color: var(--h1-color);
+}
+
+h2.rm-level2 span {
+  color: var(--h2-color);
+  padding: 0px 0px 0px 6px;
+  text-decoration: underline;
+  text-decoration-color: var(--h2-color);
+}
+
+h3.rm-level3 span {
+  color: var(--h3-color);
+  text-decoration: underline;
+  text-decoration-color: var(--h3-color);
+}
+
+.rm-query {
+  background-color: var(--query-bg-color);
+  border: 0.5px solid var(--query-edge-color);
+}
+.rm-query .rm-query-title {
+  background-color: var(--query-head-bg-color);
+  color: var(--query-head-fg-color);
+}
+
+/* Reference Boxes */
+.rm-reference-item {
+  background-color: var(--reference-bg-color);
+  border-radius: 5px;
+  padding: 20px;border: 0.5px solid var(--reference-edge-color);
+}
+
+/* Slash Popup */
+.bp3-elevation-3 {
+  color: var(--slash-popup-fg-color);
+  background-color: var(--slash-popup-bg-color) !important;
+  border-radius: 6px;
+  border: 0.5px solid var(--query-edge-color);
+}
+
+.bp3-elevation-3 > div:hover {
+  background-color: var(--slash-popup-bg-focus-color) !important;
+  color: var(--slash-popup-fg-focus-color);
+}
+
+.bp3-elevation-3 .dont-unfocus-block[style~="background-color:"] {
+  background-color: var(--slash-popup-bg-focus-color) !important;
+  color: var(--slash-popup-fg-focus-color);
+}
+
+select {
+  color: #000;
+}
+
+code {
+  padding: 0px;
+  border: 0px;
+}
+
+code span {
+  color: #ff8000;
+  background: #303030;
+  border: 0.5px solid var(--query-edge-color);
+  padding: 2px;
+}
+
+div.CodeMirror {
+  color: rgb(208, 204, 197);
+  background-color: rgb(24, 26, 27);
+}
+.CodeMirror-linenumber{
+  color:#999;
+  background-color: rgb(34, 36, 37);
+  padding-right: 2px;
+}
+.CodeMirror-gutters{
+  border-right:0px solid #ddd;
+  background-color: rgb(24, 26, 27);
+  width: 32px;
+}
+
+pre.CodeMirror-line {
+  padding-left: 4px;
+}
+
+.cm-s-default .cm-keyword{
+  color:#f19dfd
+}
+.cm-s-default .cm-atom{
+  color:#6060a0;
+}
+.cm-s-default .cm-number{
+  color:#f08040;
+}
+.cm-s-default .cm-def{
+  color:#00f
+}
+.cm-variable {
+  color: rgb(214, 222, 235);
+}
+.cm-s-default .cm-variable-2{
+  color: rgb(214, 222, 235);
+}
+.cm-s-default .cm-variable-3,.cm-s-default .cm-type{
+  color: rgb(214, 222, 235);
+}
+.cm-s-default .cm-comment{
+  color:#60a060;
+}
+.cm-s-default .cm-string{
+  color:#fff
+}
+.cm-s-default .cm-string-2{
+  color:#f50
+}
+.cm-s-default .cm-meta{
+  color:#ffbaba
+}
+.cm-s-default .cm-qualifier{
+  color:#808080;
+}
+.cm-s-default .cm-builtin{
+  color:#3dc0ff
+}
+.cm-s-default .cm-bracket{
+  color:#997
+}
+.cm-s-default .cm-tag{
+  color:#8080ff;
+}
+.cm-s-default .cm-attribute{
+  color:#00c
+}
+.cm-s-default .cm-hr{
+  color:#999
+}
+.cm-s-default .cm-link{
+  color:#00c
+}
+.cm-s-default .cm-error{
+  color:red
+}
+.cm-invalidchar{
+  color:red
+}
+.CodeMirror-cursor{
+  border-left:2px solid #a0a0ff;
+  border-right:0;
+  margin-left: 0px;
+  width:0
+}
