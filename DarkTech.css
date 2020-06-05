@@ -136,6 +136,12 @@ td {
   border-bottom: 0.5px #606060 dotted;
 }
 
+.rm-block-ref:hover {
+  border-bottom: 0.5px #606060 dotted;
+  background-color: #2a2a3a;
+}
+
+
 .rm-page-ref-tag {
   color: #606080;
 }
