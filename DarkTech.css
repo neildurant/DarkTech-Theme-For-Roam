@@ -132,6 +132,10 @@ td {
   background-color: var(--table-bg-color);
 }
 
+td span {
+    font-size: 14px;
+}
+
 .rm-block-ref {
   border-bottom: 0.5px #606060 dotted;
 }
