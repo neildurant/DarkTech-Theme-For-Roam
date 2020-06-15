@@ -57,6 +57,11 @@ body, html {
   background-color: #c0c0e0;
 }
 
+/* Path breadcrumbs */
+.parent-path-wrapper {
+    background-color: #181a1b;
+}
+
 span {
   color: var(--main-fg-color);
 }
