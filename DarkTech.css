@@ -102,6 +102,16 @@ button.bp3-button.bp3-small.bp3-minimal.block-ref-count-button {
   color: #ffffff;
 }
 
+button.bp3-button.bp3-minimal.rm-reference-item-link-button {
+    color: #a0a0a0;
+    background-color: #303040;
+}
+
+button.bp3-button.bp3-minimal.rm-reference-item-link-button:hover {
+    color: #ffffff;
+    background-color: #404050;
+}
+
 span.version-bullet {
   background-color: #b05050 !important;
   color: #ffffff;
