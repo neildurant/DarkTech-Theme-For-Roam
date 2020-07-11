@@ -359,3 +359,15 @@ pre.CodeMirror-line {
   margin-left: 0px;
   width:0
 }
+
+/* Roam toolkit modifications */
+
+.roam-toolkit-block-mode--highlight {
+    background-color: #303040;
+}
+.roam-toolkit--hint::after {
+    font-style:normal !important;
+    text-shadow: none;
+    color: orange;
+    top: 10px;
+}
