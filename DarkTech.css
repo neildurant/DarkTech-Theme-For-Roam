@@ -198,6 +198,7 @@ span.rm-page-ref-namespace-color { /* namespaces */
 textarea.rm-block-input { /* line editing */
   color: #ffffff;
   background: #202830;
+  font-family: "JetBrains Mono";
 }
 
 textarea.rm-title-display { /* line editing */
