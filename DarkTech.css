@@ -64,6 +64,7 @@ body, html {
 
 span {
   color: var(--main-fg-color);
+  font-family: "JetBrains Mono";
 }
 
 .roam-topbar {
