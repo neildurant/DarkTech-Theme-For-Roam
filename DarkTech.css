@@ -373,3 +373,7 @@ pre.CodeMirror-line {
     color: orange;
     top: 10px;
 }
+
+span.roam-highlight {
+  background-color: rgb(30, 70, 70);
+}
