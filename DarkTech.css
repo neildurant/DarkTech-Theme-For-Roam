@@ -1,3 +1,17 @@
+.rm-block-text, .rm-level1 > div, .rm-level1 > textarea {
+  max-width: 765px !important;
+}
+
+[data-tag="minimal"],
+[data-tag="minimal"] + .rm-query .rm-title-arrow-wrapper,
+[data-tag="minimal"] + .rm-query .zoom-mentions-view {
+  display:none!important; /* hide page reference (title) and mention context (breadcrumbs) */
+}
+
+div.rm-reference-item {
+  padding: 0px
+}
+
 :root {
   --main-bg-color: #181a1b;
   --main-fg-color: #d0ccc5;
@@ -207,23 +221,23 @@ textarea.rm-title-display { /* line editing */
 }
 
 h1.rm-level1 span {
-  color: var(--h1-color);
+  color: #539ad7;
   padding: 0px 0px 0px 6px;
   text-decoration: underline;
-  text-decoration-color: var(--h1-color);
+  text-decoration-color: #539ad7;
 }
 
 h2.rm-level2 span {
-  color: var(--h2-color);
+  color: #539ad7;
   padding: 0px 0px 0px 6px;
   text-decoration: underline;
-  text-decoration-color: var(--h2-color);
+  text-decoration-color: #539ad7;
 }
 
 h3.rm-level3 span {
-  color: var(--h3-color);
+  color: #539ad7;
   text-decoration: underline;
-  text-decoration-color: var(--h3-color);
+  text-decoration-color: #539ad7;
 }
 
 .rm-query {
@@ -364,9 +378,7 @@ pre.CodeMirror-line {
 
 /* Roam toolkit modifications */
 
-.roam-toolkit-block-mode--highlight {
-    background-color: #303040;
-}
+
 .roam-toolkit--hint::after {
     font-style:normal !important;
     text-shadow: none;
@@ -377,3 +389,33 @@ pre.CodeMirror-line {
 span.roam-highlight {
   background-color: rgb(30, 70, 70);
 }
+
+button.bp3-button.bp3-minimal.bp3-small {
+  color: #8080a0;
+  background-color: #203040;
+}
+
+.CodeMirror { background: var(--bg-color) !important; color: #f8f8f8 !important; }
+div.CodeMirror-selected { background: #447 !important;  }
+.CodeMirror-line::selection, .CodeMirror-line > span::selection, .CodeMirror-line > span > span::selection { background: rgba(68, 68, 119, .99); }
+.CodeMirror-line::-moz-selection, .CodeMirror-line > span::-moz-selection, .CodeMirror-line > span > span::-moz-selection { background: rgba(68, 68, 119, .99); }
+.CodeMirror-gutters { background: var(--bg-color); border-right: 1px solid #252525; }
+.CodeMirror-guttermarker { color: white !important; }
+.CodeMirror-guttermarker-subtle { color: #bbb !important; }
+.CodeMirror-linenumber { color: #f8f8f8; }
+.CodeMirror-cursor { border-left: 1px solid white !important; }
+span.cm-qualifier { color: #666666 !important; }
+span.cm-comment { color: #C71FF9 !important; }
+span.cm-atom { color: #B58AFD !important; }
+span.cm-number, span.cm-attribute { color: #ffd500 !important; }
+span.cm-keyword { color: #599eff !important; }
+span.cm-string { color: #37f14a !important; }
+span.cm-meta { color: #369BFF !important; }
+span.cm-variable-2, span.cm-tag { color: #99b2ff !important; }
+span.cm-variable-3, span.cm-def, span.cm-type { color: white !important; }
+span.cm-bracket { color: #8da6ce !important; }
+span.cm-builtin, pan.cm-special { color: #ff9e59 !important; }
+span.cm-link { color: #845dc4 !important; }
+span.cm-error { color: #F41000 !important; }
+.CodeMirror-activeline-background { background: #1C005A !important; }
+.CodeMirror-matchingbracket { outline:1px solid grey !important; color:white !important; }
