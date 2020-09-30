@@ -249,6 +249,12 @@ h3.rm-level3 span {
   color: var(--query-head-fg-color);
 }
 
+.rm-query-title {
+  background-color: var(--query-head-bg-color);
+  color: var(--query-head-fg-color);
+  display: none;
+}
+
 /* Reference Boxes */
 .rm-reference-item {
   background-color: var(--reference-bg-color);
