@@ -425,3 +425,18 @@ span.cm-link { color: #845dc4 !important; }
 span.cm-error { color: #F41000 !important; }
 .CodeMirror-activeline-background { background: #1C005A !important; }
 .CodeMirror-matchingbracket { outline:1px solid grey !important; color:white !important; }
+
+.kanban-column {
+    background-color: #303030;
+}
+
+.kanban-board {
+    background-color: #101010;
+}
+
+.kanban-card {
+    background-color: #384040;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #606060;
+}
