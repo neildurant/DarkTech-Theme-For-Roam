@@ -440,3 +440,18 @@ span.cm-error { color: #F41000 !important; }
     border-width: 1px;
     border-color: #606060;
 }
+
+/* Block quote */
+.rm-bq {
+    background-color: #222222;
+    border: 1px solid #333333;
+    border-width: 1px 1px 1px 6px;
+}
+
+/* Single-line code block */
+code {
+    color: #b0b0b0 !important;
+    background-color: #222222;
+    border: 1px solid #333333;
+    padding: 2px;
+}
