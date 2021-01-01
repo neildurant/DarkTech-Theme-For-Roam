@@ -455,3 +455,13 @@ code {
     border: 1px solid #333333;
     padding: 2px;
 }
+
+.rm-paren {
+    background-color: #282828;
+    border-color: #404040;
+}
+
+.rm-paren--closed {
+    background-color: #404040;
+    border-color: #404040;
+}
